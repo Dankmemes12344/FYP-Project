@@ -1,0 +1,55 @@
+.Wrapper{
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  /*background-color: beige;*/
+}
+
+.Header{
+  height:100px;
+  width: 75%;
+  /*background-color: red;*/
+  border-color: rgb(99, 138, 138);
+  display: flex;
+  margin-left:12.5%;
+}
+
+.Tab{
+  height:100px;
+  width:15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 27px;
+  font: 'Helvetica Light', 'Helvetica', Arial, sans-serif;
+  font-weight: 200;
+  color:rgb(65,202,217);
+}
+
+.Tab:hover{
+  border-style: solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.Content{
+  min-height:300px;
+  width: 75%;
+  margin-left:12.5%;
+  border-style: solid;
+  margin-top:10px;
+  border-left:0px;
+  border-right:0px;
+  display: flex;
+}
+
+.HeaderText{
+  font: 'Helvetica Light', 'Helvetica', Arial, sans-serif;
+  font-weight: 200;
+  font-size: 50px;
+  color:black;
+  margin-left: 5%;
+  margin-top:30px;
+  display: flex;
+}
