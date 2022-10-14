@@ -12,6 +12,7 @@
   border-color: rgb(99, 138, 138);
   display: flex;
   margin-left:12.5%;
+  justify-content: space-between;
 }
 
 .Tab{
@@ -20,7 +21,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 27px;
+  font-size: 2vw;
   font: 'Helvetica Light', 'Helvetica', Arial, sans-serif;
   font-weight: 200;
   color:rgb(65,202,217);
@@ -74,4 +75,22 @@
 
 .BigFont{
   font-size:30px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .Tab{
+    font-size: 4vw;
+    font: 'Helvetica Light', 'Helvetica', Arial, sans-serif;
+    justify-content:flex-start;
+  }
+
+  .Header{
+    flex-direction: column;
+  }
+
+  .MemberContainer{
+    width:90%;
+    margin-left: 5%;
+  }
 }
